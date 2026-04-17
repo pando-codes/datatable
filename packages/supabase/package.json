@@ -1,0 +1,39 @@
+{
+  "name": "@pando/datatable-supabase",
+  "version": "0.1.0",
+  "description": "Supabase adapter implementations for the Pando DataTable package",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@pando/datatable-contracts": "workspace:*",
+    "@pando/datatable-core": "workspace:*",
+    "@pando/datatable-testing": "workspace:*"
+  },
+  "peerDependencies": {
+    "@supabase/supabase-js": "^2.76.0"
+  },
+  "devDependencies": {
+    "@supabase/supabase-js": "^2.76.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.7.0",
+    "vitest": "^4.0.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
