@@ -42,16 +42,16 @@ describe("SupabaseUserProvider", () => {
 
     it("subscribe() forwards downstream auth-change events when wired", () => {
       const me: User = { id: "u1" };
-      let emit: ((u: User | null) => void) | null = null;
+      const emitter = { fn: null as ((u: User | null) => void) | null };
       const subscribeFn = vi.fn((listener: (u: User | null) => void) => {
-        emit = listener;
+        emitter.fn = listener;
         return () => {};
       });
       const p = provider(mockClient(), me, subscribeFn);
       const seen: (string | null)[] = [];
       p.subscribe((u) => seen.push(u?.id ?? null));
-      emit?.({ id: "u2" });
-      emit?.(null);
+      emitter.fn?.({ id: "u2" });
+      emitter.fn?.(null);
       expect(seen).toEqual(["u1", "u2", null]);
     });
 
