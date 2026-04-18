@@ -24,7 +24,7 @@ import type {
   ResourceRef,
   TableAction,
   Unsubscribe,
-} from "@pando/datatable-contracts";
+} from "@pando-codes/datatable-contracts";
 
 
 export type RoleActionMap = Record<string, TableAction[]>;

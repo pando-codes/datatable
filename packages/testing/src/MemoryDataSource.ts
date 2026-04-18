@@ -20,8 +20,8 @@ import type {
   SchemaPatch,
   TableSchema,
   Unsubscribe,
-} from "@pando/datatable-contracts";
-import { evaluateFilterGroup, compareRows, matchesSearch } from "@pando/datatable-core";
+} from "@pando-codes/datatable-contracts";
+import { evaluateFilterGroup, compareRows, matchesSearch } from "@pando-codes/datatable-core";
 import { Emitter } from "./internals/emitter";
 import { createCounterIdGenerator, type IdGenerator } from "./internals/id";
 

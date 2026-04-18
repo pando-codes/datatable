@@ -26,7 +26,7 @@ importers:
 
   packages/browser:
     dependencies:
-      '@pando/datatable-contracts':
+      '@pando-codes/datatable-contracts':
         specifier: workspace:*
         version: link:../contracts
     devDependencies:
@@ -60,7 +60,7 @@ importers:
 
   packages/core:
     dependencies:
-      '@pando/datatable-contracts':
+      '@pando-codes/datatable-contracts':
         specifier: workspace:*
         version: link:../contracts
     devDependencies:
@@ -73,13 +73,13 @@ importers:
 
   packages/supabase:
     dependencies:
-      '@pando/datatable-contracts':
+      '@pando-codes/datatable-contracts':
         specifier: workspace:*
         version: link:../contracts
-      '@pando/datatable-core':
+      '@pando-codes/datatable-core':
         specifier: workspace:*
         version: link:../core
-      '@pando/datatable-testing':
+      '@pando-codes/datatable-testing':
         specifier: workspace:*
         version: link:../testing
     devDependencies:
@@ -98,10 +98,10 @@ importers:
 
   packages/testing:
     dependencies:
-      '@pando/datatable-contracts':
+      '@pando-codes/datatable-contracts':
         specifier: workspace:*
         version: link:../contracts
-      '@pando/datatable-core':
+      '@pando-codes/datatable-core':
         specifier: workspace:*
         version: link:../core
     devDependencies:

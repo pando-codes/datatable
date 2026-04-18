@@ -14,7 +14,7 @@ import type {
   TableAction,
   Unsubscribe,
   User,
-} from "@pando/datatable-contracts";
+} from "@pando-codes/datatable-contracts";
 import { Emitter } from "./internals/emitter";
 
 export type RoleActionMap = Record<string, TableAction[]>;

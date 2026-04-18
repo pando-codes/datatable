@@ -1,7 +1,7 @@
 /**
  * In-memory AutoSaveProvider adapter.
  *
- * Thin wrapper over the shared AutoSaveQueue from @pando/datatable-core.
+ * Thin wrapper over the shared AutoSaveQueue from @pando-codes/datatable-core.
  * Wires the queue to a DataSource's apply methods and uses the default
  * error classifier, which maps JS Error.name to a FlushError code and
  * recognizes conflicts heuristically (name includes "Conflict").
@@ -19,8 +19,8 @@ import type {
   PendingChange,
   ResolvedChange,
   Unsubscribe,
-} from "@pando/datatable-contracts";
-import { AutoSaveQueue, defaultErrorClassifier } from "@pando/datatable-core";
+} from "@pando-codes/datatable-contracts";
+import { AutoSaveQueue, defaultErrorClassifier } from "@pando-codes/datatable-core";
 
 export interface MemoryAutoSaveProviderOptions {
   dataSource: DataSource;

@@ -19,7 +19,7 @@ import type {
   PageOpts,
   User,
   UserProvider,
-} from "@pando/datatable-contracts";
+} from "@pando-codes/datatable-contracts";
 
 
 export interface SupabaseUserProviderOptions {

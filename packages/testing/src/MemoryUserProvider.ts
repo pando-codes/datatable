@@ -2,7 +2,7 @@
  * In-memory UserProvider adapter. Seeded with a fixed user roster.
  */
 
-import type { Page, PageOpts, User, UserProvider } from "@pando/datatable-contracts";
+import type { Page, PageOpts, User, UserProvider } from "@pando-codes/datatable-contracts";
 import { Emitter } from "./internals/emitter";
 
 export interface MemoryUserProviderSeed {

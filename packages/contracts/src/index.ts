@@ -1,5 +1,5 @@
 /**
- * Public surface of @pando/datatable-contracts.
+ * Public surface of @pando-codes/datatable-contracts.
  *
  * This module contains only type definitions and service interfaces.
  * No runtime code, no React, no backend clients. Implementations live

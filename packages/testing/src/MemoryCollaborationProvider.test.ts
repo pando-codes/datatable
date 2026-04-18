@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import type { TableAction } from "@pando/datatable-contracts";
+import type { TableAction } from "@pando-codes/datatable-contracts";
 import { MemoryCollaborationProvider } from "./MemoryCollaborationProvider";
 
 const users = [

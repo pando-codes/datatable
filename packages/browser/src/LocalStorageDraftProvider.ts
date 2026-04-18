@@ -10,7 +10,7 @@
  * throws; callers decide whether to surface or silently drop.
  */
 
-import type { DraftProvider } from "@pando/datatable-contracts";
+import type { DraftProvider } from "@pando-codes/datatable-contracts";
 
 export interface LocalStorageDraftProviderOptions {
   /**

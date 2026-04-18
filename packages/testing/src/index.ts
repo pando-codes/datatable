@@ -1,5 +1,5 @@
 /**
- * In-memory adapter implementations for @pando/datatable-contracts.
+ * In-memory adapter implementations for @pando-codes/datatable-contracts.
  *
  * Primary use cases:
  *   - Unit tests for code that depends on contracts, without mocks.

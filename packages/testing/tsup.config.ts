@@ -7,7 +7,7 @@ export default defineConfig({
   sourcemap: true,
   clean: true,
   external: [
-    "@pando/datatable-contracts",
-    "@pando/datatable-core",
+    "@pando-codes/datatable-contracts",
+    "@pando-codes/datatable-core",
   ],
 });

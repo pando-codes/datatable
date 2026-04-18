@@ -12,7 +12,7 @@
  * use this engine.
  */
 
-import type { Row } from "@pando/datatable-contracts";
+import type { Row } from "@pando-codes/datatable-contracts";
 
 export function matchesSearch(row: Row, query: string): boolean {
   if (!query.trim()) return true;

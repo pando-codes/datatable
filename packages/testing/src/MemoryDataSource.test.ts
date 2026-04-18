@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import type { Row, TableSchema } from "@pando/datatable-contracts";
+import type { Row, TableSchema } from "@pando-codes/datatable-contracts";
 import {
   MemoryDataSource,
   RowNotFound,

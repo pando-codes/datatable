@@ -18,7 +18,7 @@ import type {
   FilterGroup,
   FilterValue,
   Row,
-} from "@pando/datatable-contracts";
+} from "@pando-codes/datatable-contracts";
 
 /**
  * Evaluate a filter group against a row. Empty condition lists always

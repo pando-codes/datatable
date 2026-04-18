@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from "vitest";
-import type { User } from "@pando/datatable-contracts";
+import type { User } from "@pando-codes/datatable-contracts";
 import { SupabaseUserProvider } from "./SupabaseUserProvider";
 import { asSupabaseClient, mockClient, type MockClient } from "./test-helpers";
 

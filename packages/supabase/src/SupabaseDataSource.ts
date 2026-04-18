@@ -28,12 +28,12 @@ import type {
   SchemaPatch,
   TableSchema,
   Unsubscribe,
-} from "@pando/datatable-contracts";
+} from "@pando-codes/datatable-contracts";
 import {
   compareRows,
   evaluateFilterGroup,
   matchesSearch,
-} from "@pando/datatable-core";
+} from "@pando-codes/datatable-core";
 
 
 export interface SupabaseDataSourceOptions {

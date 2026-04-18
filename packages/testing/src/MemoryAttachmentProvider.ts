@@ -10,7 +10,7 @@ import type {
   AttachmentConstraints,
   AttachmentProvider,
   UploadOpts,
-} from "@pando/datatable-contracts";
+} from "@pando-codes/datatable-contracts";
 import { createCounterIdGenerator, type IdGenerator } from "./internals/id";
 
 export interface MemoryAttachmentProviderOptions {

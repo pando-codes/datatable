@@ -26,7 +26,7 @@ import type {
   Page,
   PageOpts,
   ResourceId,
-} from "@pando/datatable-contracts";
+} from "@pando-codes/datatable-contracts";
 
 
 /**

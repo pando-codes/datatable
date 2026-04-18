@@ -1,5 +1,5 @@
 {
-  "name": "@pando/datatable-supabase",
+  "name": "@pando-codes/datatable-supabase",
   "version": "0.1.1",
   "description": "Supabase adapter implementations for the Pando DataTable package",
   "type": "module",
@@ -22,9 +22,9 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@pando/datatable-contracts": "workspace:*",
-    "@pando/datatable-core": "workspace:*",
-    "@pando/datatable-testing": "workspace:*"
+    "@pando-codes/datatable-contracts": "workspace:*",
+    "@pando-codes/datatable-core": "workspace:*",
+    "@pando-codes/datatable-testing": "workspace:*"
   },
   "peerDependencies": {
     "@supabase/supabase-js": "^2.76.0"

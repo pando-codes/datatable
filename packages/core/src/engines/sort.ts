@@ -11,7 +11,7 @@
  * (ascending), then to id (ascending) for stable ordering.
  */
 
-import type { Row, SortConfig } from "@pando/datatable-contracts";
+import type { Row, SortConfig } from "@pando-codes/datatable-contracts";
 
 export function compareRows(a: Row, b: Row, sort: SortConfig[]): number {
   if (sort.length === 0) {

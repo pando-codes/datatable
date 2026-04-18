@@ -25,7 +25,7 @@ import type {
   PendingChange,
   ResolvedChange,
   Unsubscribe,
-} from "@pando/datatable-contracts";
+} from "@pando-codes/datatable-contracts";
 
 export type ApplyFn = (change: PendingChange) => Promise<ResolvedChange>;
 

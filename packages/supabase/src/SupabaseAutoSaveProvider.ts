@@ -1,7 +1,7 @@
 /**
  * Supabase AutoSaveProvider adapter.
  *
- * Thin wrapper over the shared AutoSaveQueue from @pando/datatable-core.
+ * Thin wrapper over the shared AutoSaveQueue from @pando-codes/datatable-core.
  * The only Supabase-specific thing it adds is a classifier that reads
  * PostgREST / Postgres error codes and returns meaningful retryable and
  * isConflict flags.
@@ -20,9 +20,9 @@ import type {
   FlushResult,
   PendingChange,
   Unsubscribe,
-} from "@pando/datatable-contracts";
-import { AutoSaveQueue, type ErrorClassifier } from "@pando/datatable-core";
-import { applyToDataSource } from "@pando/datatable-testing";
+} from "@pando-codes/datatable-contracts";
+import { AutoSaveQueue, type ErrorClassifier } from "@pando-codes/datatable-core";
+import { applyToDataSource } from "@pando-codes/datatable-testing";
 
 export interface SupabaseAutoSaveProviderOptions {
   dataSource: DataSource;

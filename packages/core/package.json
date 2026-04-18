@@ -1,5 +1,5 @@
 {
-  "name": "@pando/datatable-core",
+  "name": "@pando-codes/datatable-core",
   "version": "0.1.1",
   "description": "Headless engines and autosave queue for the Pando DataTable package",
   "type": "module",
@@ -20,7 +20,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@pando/datatable-contracts": "workspace:*"
+    "@pando-codes/datatable-contracts": "workspace:*"
   },
   "devDependencies": {
     "tsup": "^8.3.0",

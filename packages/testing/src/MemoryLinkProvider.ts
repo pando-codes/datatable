@@ -15,7 +15,7 @@ import type {
   Page,
   PageOpts,
   ResourceId,
-} from "@pando/datatable-contracts";
+} from "@pando-codes/datatable-contracts";
 
 export interface LinkTargetResolver {
   /** Lookup a target by id. Returns null when the id is unknown. */

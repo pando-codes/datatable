@@ -2,7 +2,7 @@
  * Minimal typed pub-sub used by in-memory adapters for subscribe-style APIs.
  */
 
-import type { Unsubscribe } from "@pando/datatable-contracts";
+import type { Unsubscribe } from "@pando-codes/datatable-contracts";
 
 export class Emitter<T> {
   private listeners = new Set<(value: T) => void>();

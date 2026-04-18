@@ -1,5 +1,5 @@
 {
-  "name": "@pando/datatable-testing",
+  "name": "@pando-codes/datatable-testing",
   "version": "0.1.1",
   "description": "In-memory adapter implementations and test helpers for the Pando DataTable package",
   "type": "module",
@@ -22,8 +22,8 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@pando/datatable-contracts": "workspace:*",
-    "@pando/datatable-core": "workspace:*"
+    "@pando-codes/datatable-contracts": "workspace:*",
+    "@pando-codes/datatable-core": "workspace:*"
   },
   "devDependencies": {
     "jsdom": "^29.0.2",

@@ -6,7 +6,7 @@
  * core caring; the memory version resolves synchronously-wrapped promises.
  */
 
-import type { DraftProvider } from "@pando/datatable-contracts";
+import type { DraftProvider } from "@pando-codes/datatable-contracts";
 
 export class MemoryDraftProvider implements DraftProvider {
   private readonly store = new Map<string, unknown>();

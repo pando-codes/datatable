@@ -1,8 +1,8 @@
 /**
- * Public surface of @pando/datatable-core.
+ * Public surface of @pando-codes/datatable-core.
  *
  * Headless data/state logic for the DataTable. No React, no rendering,
- * no backend. Composes over @pando/datatable-contracts: adapters plug
+ * no backend. Composes over @pando-codes/datatable-contracts: adapters plug
  * into the contracts and the core orchestrates them.
  *
  * During Phase 1 this lives at frontend/src/datatable-core/ inside

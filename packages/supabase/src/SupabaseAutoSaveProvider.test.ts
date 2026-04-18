@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, afterEach, vi } from "vitest";
-import type { DataSource, PendingChange, TableSchema } from "@pando/datatable-contracts";
+import type { DataSource, PendingChange, TableSchema } from "@pando-codes/datatable-contracts";
 import {
   SupabaseAutoSaveProvider,
   classifySupabaseError,

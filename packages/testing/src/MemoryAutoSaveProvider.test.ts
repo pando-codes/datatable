@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, afterEach, vi } from "vitest";
-import type { AutoSaveStatus, PendingChange, TableSchema } from "@pando/datatable-contracts";
+import type { AutoSaveStatus, PendingChange, TableSchema } from "@pando-codes/datatable-contracts";
 import { MemoryDataSource } from "./MemoryDataSource";
 import { MemoryAutoSaveProvider } from "./MemoryAutoSaveProvider";
 
