@@ -1,6 +1,6 @@
 {
   "name": "@pando/datatable-testing",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "In-memory adapter implementations and test helpers for the Pando DataTable package",
   "type": "module",
   "main": "./dist/index.js",

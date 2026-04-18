@@ -1,6 +1,6 @@
 {
   "name": "@pando/datatable-browser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Browser-native storage adapters for the Pando DataTable package",
   "type": "module",
   "main": "./dist/index.js",
